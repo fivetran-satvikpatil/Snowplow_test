@@ -17,11 +17,11 @@ import static java.util.Collections.singletonList;
 
 public class SnowplowEventsGenerator {
     public static void generateEvents() throws InterruptedException{
-        String collectorEndpoint = "http://webhooks.fivetran.com/snowplow/2eab73cc-f0a3-4862-9795-6c55e3b755ec";
+        String collectorEndpoint = "http://webhook_endpoint";
         // e.g: http://webhooks.fivetran.com/snowplow/random-string-here
 
         // the application id to attach to events
-        String appId = "java-tracker-sample-fivetran-app";
+        String appId = "fivetran-app-event-tracker";
         // the namespace to attach to events
         String namespace = "fivetran-app";
 
